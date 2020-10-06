@@ -29,13 +29,3 @@ or you can install filezile and connect using host : localhost , user : user , p
 
 ## Develop by
 Rehmat Ali Sayany
-=======
-# docker-ftp-server
-Containerize application to make FTP server using python and docker
-
-Steps </b>
-
-1) clone project
-2) run 'docker-compose up'
-3) open ftp://localhost:21
->>>>>>> 842ef57b977d6cc192cdbd8d572b6216c277d36d
