@@ -27,7 +27,7 @@ Remote system type is UNIX.
 Using binary mode to transfer files.
 ftp>
 
-or you can install filezile and connect using host : localhost , user : user , password : password , port : 21
+or you can install filezila and connect using host : localhost , user : user , password : password , port : 21
 ```
 
 ## Develop by
