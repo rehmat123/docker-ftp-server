@@ -2,7 +2,7 @@
 Simple FTP server with pyftpdlib
 
 
-## Running the server:
+## Running the server using conatiner:
 ```
 1) docker-compose up
 [I 2016-04-29 18:01:49] >>> starting FTP server on 0.0.0.0:21, pid=5
@@ -10,6 +10,10 @@ Simple FTP server with pyftpdlib
 [I 2016-04-29 18:01:49] masquerade (NAT) address: None
 [I 2016-04-29 18:01:49] passive ports: None
 ```
+## Running the server using swarm:
+```
+1) docker stack deploy -c docker-compose.yml docker-ftp
+
 
 In another terminal run `ftp localhost` and you should get something like this:
 ```
