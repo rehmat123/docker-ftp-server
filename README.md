@@ -1,4 +1,4 @@
-# docker-pyftpdlib
+# docker-ftp-server
 Simple FTP server with pyftpdlib
 
 
