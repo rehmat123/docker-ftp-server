@@ -14,6 +14,8 @@ Simple FTP server with pyftpdlib
 ```
 1) docker stack deploy -c docker-compose.yml docker-ftp
 
+It will make 3 containers and all the request will be distributed between these container and by the load balancing will be done by swarm . On other hand if you kill/stop any running cotainer.. another server will be start automatically
+
 
 In another terminal run `ftp localhost` and you should get something like this:
 ```
