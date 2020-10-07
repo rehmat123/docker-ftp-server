@@ -11,8 +11,10 @@ Simple FTP server with pyftpdlib
 [I 2016-04-29 18:01:49] passive ports: None
 ```
 ## Running the server using swarm:
+
 ```
-1) docker stack deploy -c docker-compose.yml docker-ftp
+1) docker swarm init
+2) docker stack deploy -c docker-compose-deploy.yml docker-ftp
 
 It will make 3 containers and all the request will be distributed between these container and by the load balancing will be done by swarm . On other hand if you kill/stop any running cotainer.. another server will be start automatically
 
