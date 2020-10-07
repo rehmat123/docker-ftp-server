@@ -1,12 +1,7 @@
 version: "3.4"
 services:
   web-ftp-server-live:
-    image: docker-pyftpdlib-master_web-ftp-server-live:latest
     build: .
-    deploy:
-      replicas: 3
-      restart_policy:
-        condition: on-failure
     user: root
     ports:
       - "21:21"

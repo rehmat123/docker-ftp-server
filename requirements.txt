@@ -1,6 +1,1 @@
-<<<<<<< HEAD
 pyftpdlib==1.5.0
-=======
-# To ensure app dependencies are ported from your virtual environment/host machine into your container, run 'pip freeze > requirements.txt' in the terminal to overwrite this file
-pyftpdlib
->>>>>>> 842ef57b977d6cc192cdbd8d572b6216c277d36d
